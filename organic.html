@@ -10,7 +10,247 @@
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="organic.css">
-    <title>Document</title>
+    <title>Earthly Edibles</title>
+
+    <style>
+        /* Responsive Design */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .wrapper {
+            width: 90%;
+            margin: auto;
+            max-width: 1200px;
+        }
+
+        header {
+            background-color: #f8f8f8;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .logo img {
+            max-width: 150px;
+            height: auto;
+        }
+
+        .main-text h1, .main-text h3, .main-text h4 {
+            text-align: center;
+            color: #333;
+        }
+
+        .main-text button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .organic-free-premium {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+
+        .green {
+            width: 30%;
+            margin-bottom: 20px;
+        }
+
+        .green .flower {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .organic-free-premium-texts h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .about-us-texts {
+            margin-top: 20px;
+        }
+
+        .about-us-texts h3 {
+            color: #333;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .about-us-texts p {
+            text-align: justify;
+            line-height: 1.5;
+        }
+
+        .unique-design {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .unique-design-texts {
+            width: 30%;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .unique-design-texts .icon {
+            font-size: 48px;
+            color: #28a745;
+            margin-bottom: 10px;
+        }
+
+        .unique-design-texts p {
+            margin: 0;
+            color: #333;
+        }
+
+        .owl-carousel .item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .mapouter, .gmap_canvas {
+            width: 100%;
+            height: 300px;
+        }
+
+        .contact-texts h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .items-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .input-wrapper {
+            width: 45%;
+            margin-bottom: 15px;
+        }
+
+        .input-wrapper input, .input-wrapper textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .input-wrapper.top textarea {
+            height: 100px;
+        }
+
+        #sendMessageButton {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        footer {
+            background-color: #f8f8f8;
+            padding: 10px 0;
+            text-align: center;
+            color: #333;
+        }
+
+        .footer-end ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-end ul li {
+            margin: 0 10px;
+        }
+
+        .footer-end ul li a {
+            color: #333;
+            font-size: 24px;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .logo img {
+                max-width: 120px;
+            }
+
+            .main-text h1, .main-text h3, .main-text h4 {
+                font-size: 20px;
+            }
+
+            .organic-free-premium, .unique-design {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .green, .unique-design-texts {
+                width: 90%;
+            }
+
+            .mapouter, .gmap_canvas {
+                height: 200px;
+            }
+
+            .input-wrapper {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .main-text h1, .main-text h3, .main-text h4 {
+                font-size: 16px;
+            }
+
+            .main-text button {
+                padding: 8px 15px;
+                font-size: 14px;
+            }
+
+            .about-us-texts h3 {
+                font-size: 18px;
+            }
+
+            .unique-design-texts p {
+                font-size: 14px;
+            }
+        }
+    </style>
 </head>
 
 <body>
